@@ -18,7 +18,7 @@ node registerUser.js
 # validate data loaded
 node query.js
 
-pause
+read -s -p "Press [Enter] key to shutdown or [CONTROL-C] to stop..."
 
 #
 cd ../first-network/
